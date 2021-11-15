@@ -7,7 +7,7 @@
     <title>Document</title>
     <style>
 
-        div { position: relative; width: 800px; height: 800px; background: red; }
+        div { position: relative; width: 640px; height: 755px; background: silver; }
         div img { position: absolute; top: 0; left: 0; }
         div .img1 { z-index: 1; }
         div .img2 { z-index: 1; }
@@ -19,7 +19,7 @@
     
 
 
-    <input id="range" type="range" min="0" max="50" value="25"><br><br>
+    <input id="range" type="range" min="0" max="50" value="50"><br><br>
 
     <div>
 <img class="img1" src="img/bottom.png" />
@@ -31,7 +31,7 @@
     let imgOne = document.getElementsByClassName("img1")[0];
     let imgTwo = document.getElementsByClassName("img2")[0];
 
-range.addEventListener("change", function() {
+range.addEventListener("input", function() {
 // imgOne.style.opacity = this.value / this.max;
 // imgTwo.style.opacity = (this.max - this.value) / this.max;
 imgTwo.style.opacity = this.value / this.max;
