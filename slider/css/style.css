@@ -1,0 +1,13 @@
+#regions-of-interest div {
+    position: relative;
+    width: 640px;
+    height: 755px;
+    background: silver;
+}
+
+#regions-of-interest div img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
