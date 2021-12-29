@@ -1,0 +1,21 @@
+#regions-of-interest { float: left; width: 550px; }
+
+#regions-of-interest div {
+    position: relative;
+    width: 500px;
+    height: 590px;
+    background: silver;
+}
+
+#regions-of-interest div img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 500px;
+}
+
+img.large { margin-top: 46px;}
+
+.bk-root { top: 24px; }
+.vincent { left: 0 !important; float: left; position: relative !important;}
